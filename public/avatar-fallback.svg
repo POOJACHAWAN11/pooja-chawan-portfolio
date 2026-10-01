@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#174d3b"/>
+      <stop offset="100%" stop-color="#2d7a5e"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9ed75"/>
+      <stop offset="100%" stop-color="#84b82a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bg)"/>
+  <!-- Decorative circles -->
+  <circle cx="200" cy="150" r="64" fill="#f6f8f5"/>
+  <path d="M100 330 C100 245, 145 235, 200 235 C255 235, 300 245, 300 330 Z" fill="#f6f8f5"/>
+  <!-- Glasses -->
+  <circle cx="180" cy="145" r="16" fill="none" stroke="#174d3b" stroke-width="4"/>
+  <circle cx="220" cy="145" r="16" fill="none" stroke="#174d3b" stroke-width="4"/>
+  <line x1="196" y1="145" x2="204" y2="145" stroke="#174d3b" stroke-width="4"/>
+  <!-- Smile -->
+  <path d="M185 175 Q200 190 215 175" fill="none" stroke="#174d3b" stroke-width="4" stroke-linecap="round"/>
+  <!-- Tech Badge -->
+  <rect x="110" y="325" width="180" height="38" rx="19" fill="url(#badge)"/>
+  <text x="200" y="349" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#174d3b" text-anchor="middle">POOJA CHAWAN</text>
+</svg>
